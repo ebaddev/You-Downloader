@@ -2,6 +2,9 @@ This is an open-source project Which aims to provide a simple script for pyton t
 inspired by devolepdbyed video https://youtu.be/NI9LXzo0UY0?si=xwiR8NuK7sAPb6WS 
 
 
+Why only You downloader ? - I know There are more apps and website out there but they are like full of ads and are slow but not YouDownloader It pushes its limits to the end to get you the highest quality and its also [open-source]
+
+
 
 
 1.Extract .rar or .zip file 
@@ -9,7 +12,7 @@ inspired by devolepdbyed video https://youtu.be/NI9LXzo0UY0?si=xwiR8NuK7sAPb6WS
 
 
 
-2.go to dist 
+2.go to YouDownloader Folder 
 
 
 
@@ -21,6 +24,21 @@ inspired by devolepdbyed video https://youtu.be/NI9LXzo0UY0?si=xwiR8NuK7sAPb6WS
 
 Made with Python By EbadDev with Love!
 
-`improt tkinter`
-`import customtkinter`
+The Following Libraries are used in this program
+
+`import tkinter as tk`
+
+`from PIL import Image, ImageTk`
+
+`import customtkinter as ctk`
+
 `from pytube import YouTube`
+
+`import winsound`
+
+`import requests`
+
+`from io import BytesIO`
+
+`import os`
+
