@@ -1,0 +1,6 @@
+
+PyInstaller.__main__.run([
+    'youdownload3.py',
+    '--onefile',
+    '--windowed'
+])
