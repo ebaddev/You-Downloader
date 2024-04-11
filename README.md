@@ -6,30 +6,38 @@ Why only You downloader ? - I know There are more apps and website out there but
 
 
 
+```
+1.Extract .rar or .zip file  to C/YouDownloader WARNING ⚠ OTHERWISE THE CODE WILL NOT WORK [**Only Required In 2 & 2.5 versions**]
 
-1.Extract .rar or .zip file  to C/YouDownloader WARNING ⚠ OTHERWISE THE CODE WILL NOT WORK
+2.Go to YouDownloader Folder 
 
-2.go to YouDownloader Folder 
-
-3.run youdownloader.exe
-
+3.Run youdownloader.exe
+```
 Made with Python By EbadDev with Love!
 
 The Following Libraries are used in this program
+```
+import tkinter as tk
 
-`import tkinter as tk`
+from PIL import Image, ImageTk
 
-`from PIL import Image, ImageTk`
+import customtkinter as ctk
 
-`import customtkinter as ctk`
+from pytube import YouTube
 
-`from pytube import YouTube`
+import winsound
 
-`import winsound`
+import requests
 
-`import requests`
+from io import BytesIO
 
-`from io import BytesIO`
+import os
+```
+you can use pyinstaller run code [Here](https://github.com/ebaddev/You-Downloader/blob/main/pyinstaller%20run%20cmd) if your Having Problems running Commands and getting errror so just run these command in terminal 
 
-`import os`
+```
+python -m PyInstaller script.py
+OR
+python AUTO-PY-TO-EXE
+```
 
